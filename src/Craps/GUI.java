@@ -59,7 +59,7 @@ public class GUI extends JFrame {
         headerProject = new Header("Mesa Juego Craps", Color.BLACK);
         this.add(headerProject,BorderLayout.NORTH);
 
-        imagenDado = new ImageIcon(getClass().getResource("/Recursos/dado.jpg"));
+        imagenDado = new ImageIcon(getClass().getResource("/Recursos/dado.png"));
         dado1 = new JLabel(imagenDado);
         dado2 = new JLabel(imagenDado);
 
